@@ -1483,7 +1483,7 @@ SavegameEditor={
 							var charData = data.reduce((value, char) => value + String.fromCharCode(char), '');
 							var base64String = btoa(charData);
 							console.log(base64String);
-							window.open('https://blehditor.ssmvc.org/?view=true&cai='+encodeURIComponent(base64String), '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
+							window.open('https://blehditor.ssmvc.org/wipdev2.html?view=false&cai='+encodeURIComponent(base64String), '_blank', 'location=yes,height=570,width=520,scrollbars=yes,status=yes');
 						}
 					}
 				);
